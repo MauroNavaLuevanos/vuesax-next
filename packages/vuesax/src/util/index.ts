@@ -96,17 +96,17 @@ const setColor = (colorName: string, color: string, el: any, addClass?: boolean)
       el.classList.add('vs-change-color')
     }
   } else {
-    //     consolee.warn({
-      //       el,
-      //       link: 'https://lusaxweb.github.io/vuesax/',
-//       text: `• Component: ${el.__vue__.$vnode.componentOptions.tag}
-// • Warn info: El formato de la propiedad color es incorrecto
-// • Prop: color
-// • value: ${color}
-// • Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
-// • Example: color="#000" or color="rgb(255,255,255)"`,
-//       title: 'VUESAX'
-//     })
+    // console.warn({
+    //   el,
+    //   link: 'https://lusaxweb.github.io/vuesax/',
+    //   text: `• Component: ${el.__vue__.$vnode.componentOptions.tag}
+    //     • Warn info: El formato de la propiedad color es incorrecto
+    //     • Prop: color
+    //     • value: ${color}
+    //     • Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
+    //     • Example: color="#000" or color="rgb(255,255,255)"`,
+    //   title: 'VUESAX'
+    // })
   }
 }
 
